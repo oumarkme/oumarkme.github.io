@@ -1,2 +1,0 @@
-# oumarkme.github.io
-Homepage
