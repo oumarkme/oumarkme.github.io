@@ -1,11 +1,12 @@
 name: "OuMark.ME"
+output_dir: "."
 navbar:
   title: "OuMark.ME"
-  left:
+  right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Project"
+      href: project.html
 output:
   html_document:
     theme: darkly
