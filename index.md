@@ -35,8 +35,12 @@ author: Mark Ou
 
 ## Projects and Publications
 
+- Sample size determination for genomic prediction
+  - P-Y Wu, <u>J-H Ou</u>, C-T Liao
+  - R-package: [SSDFGP](https://www.oumark.me/SSDFGP)
+  
 - Researching on the fine structure and admixture of the worldwide chicken population reveal connections between populations and important events in breeding history (2021)
-  - Y G, <u>J-H Ou</u>, Y-J Zan, Y-Z Wang, H-F Li, C-H Zhu, K-W Chen, X Zhou, X-X Hu, Ö Carlborg
+  - Y Guo, <u>J-H Ou</u>, Y-J Zan, Y-Z Wang, H-F Li, C-H Zhu, K-W Chen, X Zhou, X-X Hu, Ö Carlborg
   - DOI: [10.1111/eva.13241](https://doi.org/10.1111/eva.13241)
 - Training set determination for genomic selection (2019)
   - <u>J-H Ou</u> and C-T Liao
@@ -54,4 +58,3 @@ author: Mark Ou
   - Quality control [LAB]
   - GWAS [LECTURE] [LAB]
 - Statistic practice lesson (National Taiwan University)
-  - 
