@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "OuMark"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Projects
+        menu:
+          - text: TSDFGS (R package)
+            href: https://github.markou.xyz/TSDFGS/
+      - text: Teaching
+        menu:
+          - text: GWAS (3MR103)
+            href: https://www.oumark.net/
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+
+
