@@ -10,7 +10,7 @@ website:
       - text: Projects
         menu:
           - text: TSDFGS (R package)
-            href: https://github.markou.xyz/TSDFGS/
+            href: https://www.oumark.net/TSDFGS/
       - text: Teaching
         menu:
           - text: GWAS (3MR103)
