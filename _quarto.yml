@@ -15,7 +15,7 @@ website:
       - text: Teaching
         menu:
           - text: GWAS (3MR103)
-            href: https://www.oumark.net/
+            href: https://www.oumark.net/3MR103
 
 format:
   html:
