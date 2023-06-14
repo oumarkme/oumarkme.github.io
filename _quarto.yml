@@ -12,6 +12,8 @@ website:
         menu:
           - text: TSDFGS (R package)
             href: https://www.oumark.net/TSDFGS/
+          - text: Poster (ISAG 2023)
+            href: https://www.oumark.net/download/poster_isag2023.pdf
       - text: Teaching
         menu:
           - text: GWAS (3MR103)
