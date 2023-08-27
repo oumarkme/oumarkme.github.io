@@ -21,9 +21,7 @@ website:
 
 format:
   html:
-    theme: 
-      light: simplex
-      dark: darkly
+    theme: cosmo
     css: styles.css
     toc: true
 
