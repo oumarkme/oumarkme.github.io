@@ -12,8 +12,8 @@ website:
         menu:
           - text: TSDFGS (R package)
             href: https://www.oumark.net/TSDFGS/
-          - text: VCF2R (R package)
-            href: https://www.oumark.net/vcf2r/
+          - text: GENO2R (R package)
+            href: https://www.oumark.net/geno2r/
           - text: Poster (ISAG 2023)
             href: https://www.oumark.net/download/poster_isag2023.pdf
       - text: Teaching
