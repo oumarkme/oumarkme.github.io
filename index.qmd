@@ -15,7 +15,8 @@ about:
 toc: false
 ---
 
-Greetings! I am Mark, a Ph.D. student specializing in computational genetics at Uppsala University. My research involves analyzing vast genetic data sets through statistical tools to uncover the intricate genetic architecture of growth-relative traits. I enjoy traveling and immersing myself in diverse cultures when I am not in the lab. It has always been a passion of mine to discover new places and broaden my horizons.
+Welcome to my corner of the web! It's a pleasure to meet you virtually. I'm Mark, a Ph.D. student delving into the captivating realm of computational genetics at Uppsala University. My journey involves unraveling the complexities of genetic data through statistical methodologies, focusing on elucidating the intricate genetic underpinnings of growth-relative traits. Beyond the lab's confines, I find solace in exploring the world, immersing myself in varied cultures, and embracing the enriching experiences of travel. Join me as I navigate the fascinating intersections of science, exploration, and personal growth.
+
 
 ## Education
 
