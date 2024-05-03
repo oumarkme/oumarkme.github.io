@@ -20,6 +20,8 @@ website:
         menu:
           - text: GWAS (3MR103)
             href: https://www.oumark.net/3MR103
+      - text: Resumé
+        file: resume/resume.pdf
 
 format:
   html:
