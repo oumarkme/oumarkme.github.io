@@ -1,0 +1,153 @@
+\documentclass[10pt]{article}
+
+%%% Page setups
+\usepackage[a4paper, margin=1.3cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{parskip} % no indent
+\usepackage{newpxtext,newpxmath}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}\setlist[itemize]{noitemsep}
+\pagenumbering{gobble}
+\usepackage{multicol}
+
+%%% Reset title format
+\usepackage[explicit]{titlesec}
+
+% section
+\titleformat{\section}{\normalfont\Large\bfseries\scshape}{\thesection}{1em}{#1\hrulefill}
+\titlespacing{\section}{0pt}{10pt}{5pt} % left / top / bottom
+
+% subsection
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{#1}
+\titlespacing{\subsection}{0pt}{5pt}{5pt} % left / top / bottom
+
+
+%%% Informations
+\def\phone{+886-(0)910-397161}
+\def\address{Regngatan 6, 75431 Uppsala, Sweden}
+\def\email{oumark.me@outlook.com}
+\def\web{www.oumark.net}
+
+
+
+\begin{document}
+
+%% Basic information
+\begin{center}
+{\LARGE\scshape Jen-Hsiang Ou}\\[2pt]
+{\color{gray}\bf\phone | \address | \href{mailto:\email}{\email} | \url{\web}}
+\end{center}
+
+
+%% Profile
+\section*{Personal Profile}
+I am currently a PhD candidate in Computational Genetics at Uppsala University, and I am a friendly and approachable person. I specialize in Bioinformatics and have experience in advanced computational methods to solve complex genetic problems. My primary focus is developing and applying innovative bioinformatic tools and statistical models to analyze genomic data and gain insights into population genetics and quantitative traits. I am skilled in statistical software and proficient in using high-throughput sequencing data and complex genetic modeling to drive research conclusions.
+
+
+\section*{Education}
+
+% PhD
+\subsection*{PhD candidate in Computational Genetics \hfill 2021-Current}
+\begin{itemize}
+\item Department of Medical Biochemistry and Microbiology, Faculty of Medicine, Uppsala University, Sweden
+\item Thesis: Exploring the Genetic Landscape of Chicken Populations: Admixture, Growth QTLs, and Long-Term Selection Dynamics \\ {\color{gray} Uncover the domestication history of global chicken, the complex genetic architecture of chicken body weight, and the selection response after 40 generations of intense bi-directional selection.}
+\end{itemize}
+
+
+% Master
+\subsection*{MSc in Biostatistics \hfill 2018-2019}
+\begin{itemize}
+\item Department of Agronomy, College of Bioresources and Agriculture, National Taiwan University, Taiwan
+\item Thesis: Training Set Determination for Genomic Selection (\href{https://doi.org/10.1007/s00122-019-03387-0}{doi:10.1007/s00122-019-03387-0}) \\ {\color{gray} Provide a new optimality criterion to determine a training set that is expected to result in the highest Pearson's correlation between the genomic estimated breeding value and the actual phenotype.}
+\end{itemize}
+
+
+% Bachelor
+\subsection*{BSc in Agronomy \hfill 2016-2018}
+\begin{itemize}
+\item Department of Agronomy, College of Bioresources and Agriculture, National Taiwan University, Taiwan
+\end{itemize}
+
+
+
+%% Experiences and achievements
+\section*{Experiences \& Achievements}
+
+\subsection*{ISAG Conference bursary winner \hfill 2023}
+\begin{itemize}
+\item International Society for Animal Genetics Conference (ISAG2023)
+\end{itemize}
+
+\subsection*{Organizer and Host of the Department day \hfill 2023}
+\begin{itemize}
+\item IMBIM-day 2023. A full-day scientific workshop and banquet
+\end{itemize}
+
+\subsection*{TA of Comparative Genomics for Biomedicine Course \hfill 2021-2024}
+\begin{itemize}
+\item Master-level course at Uppsala University
+\end{itemize}
+
+\subsection*{Teacher of Bioinformatic Course \hfill 2021-2024}
+\begin{itemize}
+\item Master-level course at Uppsala University
+\item Responsible for the GWAS module, giving main lectures, serving as an examiner, and practicing TA
+\end{itemize}
+
+\subsection*{Research assistant \hfill 2020-2021}
+\begin{itemize}
+\item Uppsala Biomedical Centre, Uppsala University, Sweden
+\item NGS data alignment, quality control, server maintenance, teaching, and software development
+\end{itemize}
+
+\subsection*{Research assistant \hfill 2019-2020}
+\begin{itemize}
+\item National Taiwan University, Taiwan
+\item Software developed for simulation studies, server maintenance, and manuscript writing
+\end{itemize}
+
+\subsection*{TA \& 3 times excellent teaching assistants \hfill 2018-2019}
+\begin{itemize}
+\item National Taiwan University, Taiwan
+\item TA for statistics labs. Teaching the R programming language and practical application of statistics
+\end{itemize}
+
+
+
+%% Skills
+\section*{Languages \& Skills}
+\begin{multicols}{2}
+\begin{itemize}
+\item Mandarin (Native)
+\item English (Fluent)
+\item R (Advanced)
+\item LaTeX/Debian (Advanced)
+\item Linux (Advanced)
+\item Bioinformatic tools (GATK, Plink, vcftools, etc.)
+\item Python (Intermediate)
+\item C++ (Elementary)
+\item HTML + CSS (Elementary)
+\end{itemize}
+\end{multicols}
+
+
+%% Publications
+\section*{Publications}
+\begin{itemize}
+\item \underline{\bf Ou, J.H.} (2024). Exploring the genetic landscape of chicken populations: Admixture, growth QTLs, and long-term selection dynamics. Doctoral thesis, Uppsala dissertations from the Faculty of Medicine 2053.
+\item \underline{\bf Ou, J.H.} (2024). geno2r: Functions for reading genotype data in R. R package version 1.6.2. \url{https://www.oumark.net/geno2r/}.
+\item \underline{\bf Ou, J.H.}, Rönneburg, T., Carlborg, Ö., Honaker, C.F., Siegel, P.B., Rubin, C.J. (2024). Complex genetic architecture of the chicken Growth1 QTL region. PloS One, Accepted.
+\item \underline{\bf Ou, J.H.}, Wu, P.Y., Liao, C.T., (2023). TSDFGS: Training set determination for genomic selection. R package version 2.4.2. \url{https://www.oumark.net/TSDFGS}.
+\item Wu, P.Y., \underline{\bf Ou, J.H.}, Liao, C.T. (2023). Sample size determination for training set optimization in genomic prediction. Theoretical and Applied Genetics, 136(3).
+\item Rönneburg, T., \underline{\bf Ou, J.H.}, Pettersson, M., Honaker, C.F., Siegel, P.B., Caroborg, Ö. (2023). Within-line segregation as contributors to long-term, single-trait selection-responses in the Virginia chicken lines. Manuscript in thesis, Uppsala University.
+\item Guo, Y., \underline{\bf Ou, J.H.}, Zan, Y., Wang, Y., Li, H., Zhu, C., Chen, K., Zhou, X., Hu, X., Caroborg, Ö. (2022). Researching on the fine structure and admixture of the worldwide chicken population reveal connections between populations and important events in breeding history. Evolutionary Applications, 15(4).
+\item \underline{\bf Ou, J.H.}, Liao, C.T. (2019). Training set determination for genomic selection. Theoretical and Applied Genetics, 132(10). (Also being used as my master's thesis)
+\item Lin, P.C., Tsai, Y.C., Hsu, S.K., \underline{\bf Ou, J.H.}, Liao, C.T., Tung, C.W. (2018). Identification of nature variants affecting chlorophyll content dynamics during rice seedling development. Plant breeding, 137(3).
+
+\end{itemize}
+
+
+
+
+\end{document}
