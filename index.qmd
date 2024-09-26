@@ -15,16 +15,16 @@ about:
 toc: false
 ---
 
-Welcome to my corner of the web! It's a pleasure to meet you virtually. I'm Mark, a Ph.D. student delving into the captivating realm of computational genetics at Uppsala University. My journey involves unraveling the complexities of genetic data through statistical methodologies, focusing on elucidating the intricate genetic underpinnings of growth-relative traits. Beyond the lab's confines, I find solace in exploring the world, immersing myself in varied cultures, and embracing the enriching experiences of travel. Join me as I navigate the fascinating intersections of science, exploration, and personal growth.
+Welcome to my corner of the web! I am Mark, a postdoc researcher at National Taiwan University Hospital, specializing in bioinformatics. My research focuses on how structural variation in DNA, like repeat sequences, and methylation are connected to diseases, particularly rare ones. I work with both next-generation and long-read sequencing technologies to study the genetic basis of diseases. Having completed my doctoral studies at Uppsala University and earned a master's degree in Biostatistics from National Taiwan University, my goal is to better understand genetic variation and its role in disease, contributing to advancements in medical research.
 
 
 ## Education
 
 Uppsala University\| Uppsala, Sweden\
-PhD in Computational Genetics \| Current
+PhD in Computational Genetics \| 2020-2024
 
 National Taiwan University \| Taipei, Taiwan\
-MSc in Biometry \| 2018-2019
+MSc in Biometry \| 2016-2018
 
 National Taiwan University \| Taipei, Taiwan\
-BSc in Agronomy \| 2016-2018
+BSc in Agronomy \| 2012-2016

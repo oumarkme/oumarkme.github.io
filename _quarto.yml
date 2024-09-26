@@ -20,6 +20,8 @@ website:
         menu:
           - text: GWAS (3MR103)
             href: https://www.oumark.net/3MR103
+          - text: AlphaFold
+            href: https://www.oumark.net/AlphaFold/lecture_slide.pdf
       - text: Resumé
         file: resume/resume.pdf
 

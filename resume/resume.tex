@@ -11,6 +11,13 @@
 \pagenumbering{gobble}
 \usepackage{multicol}
 
+
+%%% set chinese font
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt 
+
 %%% Reset title format
 \usepackage[explicit]{titlesec}
 
@@ -33,22 +40,35 @@
 
 \begin{document}
 
+
 %% Basic information
 \begin{center}
 {\LARGE\scshape Jen-Hsiang Ou}\\[2pt]
-{\color{gray}\bf\phone | \address | \href{mailto:\email}{\email} | \href{\web}{\web}}
+%{\color{gray}\bf\phone | \address | \href{mailto:\email}{\email} | \href{\web}{\web}}
 \end{center}
 
 
 %% Profile
-\section*{Personal Profile}
-I am currently a PhD candidate in Computational Genetics at Uppsala University, and I am a friendly and approachable person. I specialize in Bioinformatics and have experience in advanced computational methods to solve complex genetic problems. My primary focus is developing and applying innovative bioinformatic tools and statistical models to analyze genomic data and gain insights into population genetics and quantitative traits. I am skilled in statistical software and proficient in using high-throughput sequencing data and complex genetic modeling to drive research conclusions.
+%\section*{Personal Profile}
+\vspace{16pt}
+I'm a postdoctoral researcher at the Department of Medical Genetics, National Taiwan University Hospital. My research focuses on structural variations, like repeat sequences, and DNA methylation in relation to diseases. I work with both next-generation and long-read sequencing technologies to study the genetic basis of rare diseases. Having completed my doctoral studies at Uppsala University and earned a master's degree in Biostatistics from National Taiwan University, my goal is to better understand genetic variation and its role in disease, contributing to advancements in medical research.
+
+%% Personal Information
+\section*{Personal Information}
+\begin{tabular}{ll}
+    \multicolumn{2}{l}{歐任翔 Jen-Hsiang (Mark) Ou, Ph.D.}  \\
+    Position: & Postdoc researcher, Department of Medical Genetics, National Taiwan University Hospital\\
+    Phone: & [Work] (02) 2312-3456 ext.271904 | [Personal] +886-(0)910-397161 \\
+    E-mail: & [Wrok] jhou@ntuh.gov.tw | [Personal] oumark.me@outlook.com \\
+    Address: & \\
+\end{tabular}
 
 
+%% Education section
 \section*{Education}
 
 % PhD
-\subsection*{PhD candidate in Computational Genetics \hfill 2020-Current}
+\subsection*{PhD candidate in Computational Genetics \hfill 2020-2024}
 \begin{itemize}
 \item Department of Medical Biochemistry and Microbiology, Faculty of Medicine, Uppsala University, Sweden
 \item Thesis: Exploring the Genetic Landscape of Chicken Populations: Admixture, Growth QTLs, and Long-Term Selection Dynamics \\ {\color{gray} Uncover the domestication history of global chicken, the complex genetic architecture of chicken body weight, and the selection response after 40 generations of intense bi-directional selection.}
@@ -73,6 +93,12 @@ I am currently a PhD candidate in Computational Genetics at Uppsala University, 
 
 %% Experiences and achievements
 \section*{Experiences \& Achievements}
+
+\subsection*{Postdoc Researcher \hfill 2024-recent}
+\begin{itemize}
+\item Department of Medical Genetics, National Taiwan University Hospital (NTUH)
+\item Understanding the genetic basis of the inherited muscular dystrophy disease, Facioscapulohumeral dystrophy (FSHD).
+\end{itemize}
 
 \subsection*{ISAG Conference bursary winner \hfill 2023}
 \begin{itemize}
